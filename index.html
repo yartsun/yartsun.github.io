@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
 
 	<meta charset="utf-8">
-	<title>OptimizedHTML 5</title>
-	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+	<title>Fintellect</title>
+	<meta name="description" content="Fintellect description">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="images/favicon.png">
 	<meta property="og:image" content="images/dist/preview.jpg">
@@ -15,15 +14,457 @@
 </head>
 
 <body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<a href="#" class="header__logo">
+						<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M17.9998 33.6523C26.6443 33.6523 33.652 26.6445 33.652 18.0001C33.652 9.35562 26.6443 2.3479 17.9998 2.3479C9.35537 2.3479 2.34766 9.35562 2.34766 18.0001C2.34766 26.6445 9.35537 33.6523 17.9998 33.6523Z" stroke="#2F2F31" stroke-width="5"/>
+							<path d="M17.5351 25.8261V19.712H23.5916V16.2881H17.5351V13.5979H24.2612V10.174H13.3047V16.3629L17.5351 16.2881L13.3047 19.712V25.8261H17.5351Z" fill="#2F2F31"/>
+						</svg>
+					</a>
+				</div>
+				<div class="col-md-6 d-flex align-items-center justify-content-end">
+					<nav class="header__nav">
+						<ul>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">Industries</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="btn btn-link"><span></span>Try for free</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--Welcome-->
+	<section id="welcome" class="welcome">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>Meet <span>Fintellect</span></h1>
+					<h2 class="welcome__description">Smart budgeting & accounting app for small business</h2>
+					<canvas id="logoAnimation"></canvas>
+					<div class="welcome__info">
+						<p>Processing your financial data <br>
+							to give you valuable operational insights</p>
+					</div>
+					<div class="welcome__bg"></div>
+					<div class="welcome__scroll">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M28 14C28 21.732 21.732 28 14 28C6.26801 28 0 21.732 0 14C0 6.26801 6.26801 0 14 0C21.732 0 28 6.26801 28 14ZM3.5 14C3.5 19.799 8.20101 24.5 14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14Z" fill="#2F2F31" fill-opacity="0.2"/>
+							<path d="M28 14C28 12.1615 27.6379 10.341 26.9343 8.64243C26.2307 6.94387 25.1995 5.40053 23.8995 4.1005C22.5995 2.80048 21.0561 1.76925 19.3576 1.06569C17.659 0.362121 15.8385 -8.03637e-08 14 0L14 3.5C15.3789 3.5 16.7443 3.77159 18.0182 4.29926C19.2921 4.82694 20.4496 5.60036 21.4246 6.57538C22.3996 7.55039 23.1731 8.7079 23.7007 9.98182C24.2284 11.2557 24.5 12.6211 24.5 14H28Z" fill="#2F2F31"/>
+						</svg>
+						<span>Scroll down </span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Welcome-->
 
-	<div style="max-width: 700px; margin: auto">
+	<!--About-->
+	<section id="about" class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="about__title titleSection">Using smart approach to avoid <span> common pains</span></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="tabs tabs-about">
+						<div class="tabs__header">
+							<a class="tabs__headerItem active" href="#cashGap">
+								<svg width="56" height="56" class="icon" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_b)">
+										<rect x="56" y="56" width="56" height="56" rx="28" transform="rotate(-180 56 56)" fill="#2F2F31" fill-opacity="0.05"/>
+										<rect x="55.5" y="55.5" width="55" height="55" rx="27.5" transform="rotate(-180 55.5 55.5)" stroke="#2F2F31" stroke-opacity="0.2"/>
+									</g>
+									<path d="M37.6587 22.2882H17.3828V36.7141H27.305V32.5259H27.7364H37.6587V22.2882Z" fill="url(#paint0_linear)"/>
+									<mask id="path-4-inside-1" fill="white">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M16.6411 20.25H13.5234V21.75H16.6411C16.7792 21.75 16.8911 21.8619 16.8911 22V35.4602C16.8911 36.4267 17.6746 37.2102 18.6411 37.2102H26.5881C27.5546 37.2102 28.3381 36.4267 28.3381 35.4602V32.5695H36.2623C37.2288 32.5695 38.0123 31.786 38.0123 30.8195V22.5153C38.0123 22.3772 38.1242 22.2653 38.2623 22.2653H41.5218V20.7653H38.2623C37.2958 20.7653 36.5123 21.5488 36.5123 22.5153V30.8195C36.5123 30.9576 36.4003 31.0695 36.2623 31.0695H27.0391V31.3043H26.8381V35.4602C26.8381 35.5983 26.7262 35.7102 26.5881 35.7102H18.6411C18.503 35.7102 18.3911 35.5983 18.3911 35.4602V22C18.3911 21.0335 17.6076 20.25 16.6411 20.25Z"/>
+									</mask>
+									<path d="M13.5234 20.25V19.25H12.5234V20.25H13.5234ZM13.5234 21.75H12.5234V22.75H13.5234V21.75ZM28.3381 32.5695V31.5695H27.3381V32.5695H28.3381ZM41.5218 22.2653V23.2653H42.5218V22.2653H41.5218ZM41.5218 20.7653H42.5218V19.7653H41.5218V20.7653ZM27.0391 31.0695V30.0695H26.0391V31.0695H27.0391ZM27.0391 31.3043V32.3043H28.0391V31.3043H27.0391ZM26.8381 31.3043V30.3043H25.8381V31.3043H26.8381ZM13.5234 21.25H16.6411V19.25H13.5234V21.25ZM14.5234 21.75V20.25H12.5234V21.75H14.5234ZM16.6411 20.75H13.5234V22.75H16.6411V20.75ZM17.8911 22C17.8911 21.3096 17.3315 20.75 16.6411 20.75V22.75C16.2269 22.75 15.8911 22.4142 15.8911 22H17.8911ZM17.8911 35.4602V22H15.8911V35.4602H17.8911ZM18.6411 36.2102C18.2269 36.2102 17.8911 35.8744 17.8911 35.4602H15.8911C15.8911 36.979 17.1223 38.2102 18.6411 38.2102V36.2102ZM26.5881 36.2102H18.6411V38.2102H26.5881V36.2102ZM27.3381 35.4602C27.3381 35.8744 27.0023 36.2102 26.5881 36.2102V38.2102C28.1069 38.2102 29.3381 36.979 29.3381 35.4602H27.3381ZM27.3381 32.5695V35.4602H29.3381V32.5695H27.3381ZM36.2623 31.5695H28.3381V33.5695H36.2623V31.5695ZM37.0123 30.8195C37.0123 31.2337 36.6765 31.5695 36.2623 31.5695V33.5695C37.7811 33.5695 39.0123 32.3383 39.0123 30.8195H37.0123ZM37.0123 22.5153V30.8195H39.0123V22.5153H37.0123ZM38.2623 21.2653C37.5719 21.2653 37.0123 21.8249 37.0123 22.5153H39.0123C39.0123 22.9295 38.6765 23.2653 38.2623 23.2653V21.2653ZM41.5218 21.2653H38.2623V23.2653H41.5218V21.2653ZM40.5218 20.7653V22.2653H42.5218V20.7653H40.5218ZM38.2623 21.7653H41.5218V19.7653H38.2623V21.7653ZM37.5123 22.5153C37.5123 22.1011 37.8481 21.7653 38.2623 21.7653V19.7653C36.7435 19.7653 35.5123 20.9965 35.5123 22.5153H37.5123ZM37.5123 30.8195V22.5153H35.5123V30.8195H37.5123ZM36.2623 32.0695C36.9526 32.0695 37.5123 31.5099 37.5123 30.8195H35.5123C35.5123 30.4053 35.8481 30.0695 36.2623 30.0695V32.0695ZM27.0391 32.0695H36.2623V30.0695H27.0391V32.0695ZM28.0391 31.3043V31.0695H26.0391V31.3043H28.0391ZM26.8381 32.3043H27.0391V30.3043H26.8381V32.3043ZM27.8381 35.4602V31.3043H25.8381V35.4602H27.8381ZM26.5881 36.7102C27.2785 36.7102 27.8381 36.1505 27.8381 35.4602H25.8381C25.8381 35.046 26.1739 34.7102 26.5881 34.7102V36.7102ZM18.6411 36.7102H26.5881V34.7102H18.6411V36.7102ZM17.3911 35.4602C17.3911 36.1505 17.9507 36.7102 18.6411 36.7102V34.7102C19.0553 34.7102 19.3911 35.046 19.3911 35.4602H17.3911ZM17.3911 22V35.4602H19.3911V22H17.3911ZM16.6411 21.25C17.0553 21.25 17.3911 21.5858 17.3911 22H19.3911C19.3911 20.4812 18.1599 19.25 16.6411 19.25V21.25Z" fill="#2F2F31" fill-opacity="0.2" mask="url(#path-4-inside-1)"/>
+									<defs>
+										<filter id="filter0_b" x="-60" y="-60" width="176" height="176" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="30"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+										</filter>
+										<linearGradient id="paint0_linear" x1="26.5552" y1="37.7445" x2="27.4089" y2="22.294" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#2F2F31" stop-opacity="0.25"/>
+											<stop offset="1" stop-color="#2F2F31" stop-opacity="0"/>
+										</linearGradient>
+									</defs>
+								</svg>
+								<svg width="56" height="56" class="icon-active" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_b)">
+										<rect x="56" y="56" width="56" height="56" rx="28" transform="rotate(-180 56 56)" fill="#2F2F31"/>
+									</g>
+									<path d="M37.6587 22.2882H17.3828V36.7141H27.305V32.5259H27.7364H37.6587V22.2882Z" fill="url(#paint0_linear)"/>
+									<mask id="path-3-inside-1" fill="white">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M16.6411 20.25H13.5234V21.75H16.6411C16.7792 21.75 16.8911 21.8619 16.8911 22V35.4602C16.8911 36.4267 17.6746 37.2102 18.6411 37.2102H26.5881C27.5546 37.2102 28.3381 36.4267 28.3381 35.4602V32.5695H36.2623C37.2288 32.5695 38.0123 31.786 38.0123 30.8195V22.5153C38.0123 22.3772 38.1242 22.2653 38.2623 22.2653H41.5218V20.7653H38.2623C37.2958 20.7653 36.5123 21.5488 36.5123 22.5153V30.8195C36.5123 30.9576 36.4003 31.0695 36.2623 31.0695H27.0391V31.3043H26.8381V35.4602C26.8381 35.5983 26.7262 35.7102 26.5881 35.7102H18.6411C18.503 35.7102 18.3911 35.5983 18.3911 35.4602V22C18.3911 21.0335 17.6076 20.25 16.6411 20.25Z"/>
+									</mask>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M16.6411 20.25H13.5234V21.75H16.6411C16.7792 21.75 16.8911 21.8619 16.8911 22V35.4602C16.8911 36.4267 17.6746 37.2102 18.6411 37.2102H26.5881C27.5546 37.2102 28.3381 36.4267 28.3381 35.4602V32.5695H36.2623C37.2288 32.5695 38.0123 31.786 38.0123 30.8195V22.5153C38.0123 22.3772 38.1242 22.2653 38.2623 22.2653H41.5218V20.7653H38.2623C37.2958 20.7653 36.5123 21.5488 36.5123 22.5153V30.8195C36.5123 30.9576 36.4003 31.0695 36.2623 31.0695H27.0391V31.3043H26.8381V35.4602C26.8381 35.5983 26.7262 35.7102 26.5881 35.7102H18.6411C18.503 35.7102 18.3911 35.5983 18.3911 35.4602V22C18.3911 21.0335 17.6076 20.25 16.6411 20.25Z" fill="#E7E3E2"/>
+									<path d="M13.5234 20.25V19.25H12.5234V20.25H13.5234ZM13.5234 21.75H12.5234V22.75H13.5234V21.75ZM28.3381 32.5695V31.5695H27.3381V32.5695H28.3381ZM41.5218 22.2653V23.2653H42.5218V22.2653H41.5218ZM41.5218 20.7653H42.5218V19.7653H41.5218V20.7653ZM27.0391 31.0695V30.0695H26.0391V31.0695H27.0391ZM27.0391 31.3043V32.3043H28.0391V31.3043H27.0391ZM26.8381 31.3043V30.3043H25.8381V31.3043H26.8381ZM13.5234 21.25H16.6411V19.25H13.5234V21.25ZM14.5234 21.75V20.25H12.5234V21.75H14.5234ZM16.6411 20.75H13.5234V22.75H16.6411V20.75ZM17.8911 22C17.8911 21.3096 17.3315 20.75 16.6411 20.75V22.75C16.2269 22.75 15.8911 22.4142 15.8911 22H17.8911ZM17.8911 35.4602V22H15.8911V35.4602H17.8911ZM18.6411 36.2102C18.2269 36.2102 17.8911 35.8744 17.8911 35.4602H15.8911C15.8911 36.979 17.1223 38.2102 18.6411 38.2102V36.2102ZM26.5881 36.2102H18.6411V38.2102H26.5881V36.2102ZM27.3381 35.4602C27.3381 35.8744 27.0023 36.2102 26.5881 36.2102V38.2102C28.1069 38.2102 29.3381 36.979 29.3381 35.4602H27.3381ZM27.3381 32.5695V35.4602H29.3381V32.5695H27.3381ZM36.2623 31.5695H28.3381V33.5695H36.2623V31.5695ZM37.0123 30.8195C37.0123 31.2337 36.6765 31.5695 36.2623 31.5695V33.5695C37.7811 33.5695 39.0123 32.3383 39.0123 30.8195H37.0123ZM37.0123 22.5153V30.8195H39.0123V22.5153H37.0123ZM38.2623 21.2653C37.5719 21.2653 37.0123 21.8249 37.0123 22.5153H39.0123C39.0123 22.9295 38.6765 23.2653 38.2623 23.2653V21.2653ZM41.5218 21.2653H38.2623V23.2653H41.5218V21.2653ZM40.5218 20.7653V22.2653H42.5218V20.7653H40.5218ZM38.2623 21.7653H41.5218V19.7653H38.2623V21.7653ZM37.5123 22.5153C37.5123 22.1011 37.8481 21.7653 38.2623 21.7653V19.7653C36.7435 19.7653 35.5123 20.9965 35.5123 22.5153H37.5123ZM37.5123 30.8195V22.5153H35.5123V30.8195H37.5123ZM36.2623 32.0695C36.9526 32.0695 37.5123 31.5099 37.5123 30.8195H35.5123C35.5123 30.4053 35.8481 30.0695 36.2623 30.0695V32.0695ZM27.0391 32.0695H36.2623V30.0695H27.0391V32.0695ZM28.0391 31.3043V31.0695H26.0391V31.3043H28.0391ZM26.8381 32.3043H27.0391V30.3043H26.8381V32.3043ZM27.8381 35.4602V31.3043H25.8381V35.4602H27.8381ZM26.5881 36.7102C27.2785 36.7102 27.8381 36.1505 27.8381 35.4602H25.8381C25.8381 35.046 26.1739 34.7102 26.5881 34.7102V36.7102ZM18.6411 36.7102H26.5881V34.7102H18.6411V36.7102ZM17.3911 35.4602C17.3911 36.1505 17.9507 36.7102 18.6411 36.7102V34.7102C19.0553 34.7102 19.3911 35.046 19.3911 35.4602H17.3911ZM17.3911 22V35.4602H19.3911V22H17.3911ZM16.6411 21.25C17.0553 21.25 17.3911 21.5858 17.3911 22H19.3911C19.3911 20.4812 18.1599 19.25 16.6411 19.25V21.25Z" fill="#EAE6E3" mask="url(#path-3-inside-1)"/>
+									<defs>
+										<filter id="filter0_b" x="-60" y="-60" width="176" height="176" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="30"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+										</filter>
+										<linearGradient id="paint0_linear" x1="26.5552" y1="37.7445" x2="27.4089" y2="22.294" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#EAE6E3"/>
+											<stop offset="1" stop-color="#EAE6E3" stop-opacity="0"/>
+										</linearGradient>
+									</defs>
+								</svg>
 
-		<img src="images/dist/preview.jpg" alt="Start HTML5 Template" style="width: 100%"><br><br>
-		<h2>Welcome to startup HTML template OptimizedHTML 5!</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reprehenderit nulla alias expedita a qui, pariatur doloremque ipsa fugit laboriosam odio iure recusandae laborum delectus praesentium magni reiciendis voluptatem. Sed.</p>
-	
-	</div>
+							</a>
+							<a class="tabs__headerItem" href="#expenses">
+								<svg width="56" class="icon" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_b)">
+										<rect x="56" y="56" width="56" height="56" rx="28" transform="rotate(-180 56 56)" fill="#2F2F31" fill-opacity="0.05"/>
+										<rect x="55.5" y="55.5" width="55" height="55" rx="27.5" transform="rotate(-180 55.5 55.5)" stroke="#2F2F31" stroke-opacity="0.2"/>
+									</g>
+									<path d="M34.2002 17.3793H32.512V21.7206H34.2002V17.3793ZM38.6203 21.5673C38.6203 20.4627 37.7249 19.5673 36.6203 19.5673H32.9989V22.7143H33.3152V19.5673H21.7207V22.7123H22.0393V19.5673H19.3789C18.2743 19.5673 17.3789 20.4627 17.3789 21.5673V35.9878C17.3789 37.0923 18.2743 37.9878 19.3789 37.9878H36.6203C37.7249 37.9878 38.6203 37.0923 38.6203 35.9878V21.5673ZM37.4945 34.9948C37.4946 36.0995 36.5992 36.995 35.4945 36.995H20.509C19.4044 36.995 18.509 36.0996 18.509 34.995V24.6563H37.4936L37.4945 34.9948ZM23.4894 17.3803H21.9013V21.7206H23.4894V17.3803Z" fill="#2F2F31" fill-opacity="0.2"/>
+									<rect x="18.3438" y="26.6531" width="19.3103" height="10.3044" fill="url(#paint0_linear)"/>
+									<defs>
+										<filter id="filter0_b" x="-60" y="-60" width="176" height="176" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="30"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+										</filter>
+										<linearGradient id="paint0_linear" x1="27.5162" y1="40.0487" x2="27.832" y2="26.654" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#2F2F31" stop-opacity="0.2"/>
+											<stop offset="1" stop-color="#2F2F31" stop-opacity="0"/>
+										</linearGradient>
+									</defs>
+								</svg>
+								<svg width="56" class="icon-active" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_b)">
+										<rect x="56" y="56" width="56" height="56" rx="28" transform="rotate(-180 56 56)" fill="#2F2F31"/>
+									</g>
+									<path d="M34.2002 17.3793H32.512V21.7206H34.2002V17.3793ZM38.6203 21.5673C38.6203 20.4627 37.7249 19.5673 36.6203 19.5673H32.9989V22.7143H33.3152V19.5673H21.7207V22.7123H22.0393V19.5673H19.3789C18.2743 19.5673 17.3789 20.4627 17.3789 21.5673V35.9878C17.3789 37.0923 18.2743 37.9878 19.3789 37.9878H36.6203C37.7249 37.9878 38.6203 37.0923 38.6203 35.9878V21.5673ZM37.4945 34.9948C37.4946 36.0995 36.5992 36.995 35.4945 36.995H20.509C19.4044 36.995 18.509 36.0996 18.509 34.995V24.6563H37.4936L37.4945 34.9948ZM23.4894 17.3803H21.9013V21.7206H23.4894V17.3803Z" fill="#EAE6E3"/>
+									<rect x="18.3438" y="26.6531" width="19.3103" height="10.3044" fill="url(#paint0_linear)"/>
+									<defs>
+										<filter id="filter0_b" x="-60" y="-60" width="176" height="176" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="30"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+										</filter>
+										<linearGradient id="paint0_linear" x1="27.5162" y1="40.0487" x2="27.832" y2="26.654" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#EAE6E3"/>
+											<stop offset="1" stop-color="#EAE6E3" stop-opacity="0"/>
+										</linearGradient>
+									</defs>
+								</svg>
 
+							</a>
+							<a class="tabs__headerItem" href="#incomes">
+								<svg width="56" class="icon" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_b)">
+										<rect x="56" y="56" width="56" height="56" rx="28" transform="rotate(-180 56 56)" fill="#2F2F31" fill-opacity="0.05"/>
+										<rect x="55.5" y="55.5" width="55" height="55" rx="27.5" transform="rotate(-180 55.5 55.5)" stroke="#2F2F31" stroke-opacity="0.2"/>
+									</g>
+									<path d="M37.0587 16.3225C35.7935 14.9745 33.7445 14.9745 32.4793 16.3225L31.3329 17.5526L19.1303 30.5686L19.1044 30.5965C19.0981 30.6032 19.0981 30.6103 19.0914 30.6103C19.0784 30.6311 19.059 30.6516 19.0462 30.6724C19.0462 30.6793 19.0395 30.6793 19.0395 30.6862C19.0266 30.707 19.0203 30.7208 19.0071 30.7416C19.0008 30.7485 19.0008 30.7552 18.9943 30.7623C18.9879 30.7831 18.9814 30.7969 18.9747 30.8177C18.9747 30.8244 18.9684 30.8244 18.9684 30.8315L16.261 39.5203C16.1816 39.7676 16.242 40.0416 16.4164 40.2251C16.539 40.3542 16.7043 40.4264 16.8763 40.4258C16.9466 40.4245 17.0163 40.4128 17.0836 40.3912L25.2187 37.4949C25.225 37.4949 25.225 37.4949 25.2317 37.4882C25.2522 37.4817 25.2718 37.4724 25.2899 37.4603C25.2949 37.4596 25.2994 37.4573 25.303 37.4536C25.3223 37.4398 25.3482 37.4257 25.3677 37.4119C25.3869 37.3982 25.4066 37.3775 25.426 37.3636C25.4325 37.3565 25.4388 37.3565 25.4388 37.3498C25.4455 37.3429 25.4584 37.3362 25.4649 37.3221L38.8139 23.0758C40.0769 21.7255 40.0769 19.5388 38.8139 18.1887L37.0587 16.3225ZM25.0115 35.8704L20.5035 31.0596L31.7864 19.0184L36.2943 23.8291L25.0115 35.8704ZM19.8686 32.3384L23.8068 36.5411L17.8932 38.6424L19.8686 32.3384ZM37.9007 22.108L37.2141 22.8477L32.706 18.0365L33.3993 17.297C34.1576 16.4883 35.3868 16.4883 36.1454 17.297L37.907 19.1771C38.6597 19.9901 38.6569 21.2989 37.9007 22.108Z" fill="#2F2F31" fill-opacity="0.2"/>
+									<path d="M24.6206 36.6368L19.793 30.9695L31.8619 18.0892L37.1723 23.2413L24.6206 36.6368Z" fill="url(#paint0_linear)"/>
+									<defs>
+										<filter id="filter0_b" x="-60" y="-60" width="176" height="176" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="30"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+										</filter>
+										<linearGradient id="paint0_linear" x1="28.2977" y1="37.8335" x2="28.2977" y2="18.0892" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#2F2F31" stop-opacity="0.2"/>
+											<stop offset="1" stop-color="#2F2F31" stop-opacity="0"/>
+										</linearGradient>
+									</defs>
+								</svg>
+								<svg width="56" height="56" class="icon-active" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g filter="url(#filter0_b)">
+										<rect x="56" y="56" width="56" height="56" rx="28" transform="rotate(-180 56 56)" fill="#2F2F31"/>
+									</g>
+									<path d="M37.0587 16.3225C35.7935 14.9745 33.7445 14.9745 32.4793 16.3225L31.3329 17.5526L19.1303 30.5686L19.1044 30.5965C19.0981 30.6032 19.0981 30.6103 19.0914 30.6103C19.0784 30.6311 19.059 30.6516 19.0462 30.6724C19.0462 30.6793 19.0395 30.6793 19.0395 30.6862C19.0266 30.707 19.0203 30.7208 19.0071 30.7416C19.0008 30.7485 19.0008 30.7552 18.9943 30.7623C18.9879 30.7831 18.9814 30.7969 18.9747 30.8177C18.9747 30.8244 18.9684 30.8244 18.9684 30.8315L16.261 39.5203C16.1816 39.7676 16.242 40.0416 16.4164 40.2251C16.539 40.3542 16.7043 40.4264 16.8763 40.4258C16.9466 40.4245 17.0163 40.4128 17.0836 40.3912L25.2187 37.4949C25.225 37.4949 25.225 37.4949 25.2317 37.4882C25.2522 37.4817 25.2718 37.4724 25.2899 37.4603C25.2949 37.4596 25.2994 37.4573 25.303 37.4536C25.3223 37.4398 25.3482 37.4257 25.3677 37.4119C25.3869 37.3982 25.4066 37.3775 25.426 37.3636C25.4325 37.3565 25.4388 37.3565 25.4388 37.3498C25.4455 37.3429 25.4584 37.3362 25.4649 37.3221L38.8139 23.0758C40.0769 21.7255 40.0769 19.5388 38.8139 18.1887L37.0587 16.3225ZM25.0115 35.8704L20.5035 31.0596L31.7864 19.0184L36.2943 23.8291L25.0115 35.8704ZM19.8686 32.3384L23.8068 36.5411L17.8932 38.6424L19.8686 32.3384ZM37.9007 22.108L37.2141 22.8477L32.706 18.0365L33.3993 17.297C34.1576 16.4883 35.3868 16.4883 36.1454 17.297L37.907 19.1771C38.6597 19.9901 38.6569 21.2989 37.9007 22.108Z" fill="#EAE6E3"/>
+									<path d="M24.6206 36.6368L19.793 30.9695L31.8619 18.0892L37.1723 23.2413L24.6206 36.6368Z" fill="url(#paint0_linear)"/>
+									<defs>
+										<filter id="filter0_b" x="-60" y="-60" width="176" height="176" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="30"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+										</filter>
+										<linearGradient id="paint0_linear" x1="28.2977" y1="37.8335" x2="28.2977" y2="18.0892" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#EAE6E3"/>
+											<stop offset="1" stop-color="#2F2F31" stop-opacity="0"/>
+										</linearGradient>
+									</defs>
+								</svg>
+
+							</a>
+						</div>
+						<div class="tabs__body">
+							<div id="cashGap" class="tabs__bodyItem active">
+								<h3>Cash gaps</h3>
+								<p>Fintellect analyses the dates for the client payments and incomes to let you know when can you be out of cash and lets you know what to do about it</p>
+							</div>
+							<div id="expenses" class="tabs__bodyItem">
+								<h3>Cash gaps</h3>
+								<p>Fintellect analyses the dates for the client payments and incomes to let you know when can you be out of cash and lets you know what to do about it</p>
+							</div>
+							<div id="incomes" class="tabs__bodyItem">
+								<h3>Cash gaps</h3>
+								<p>Fintellect analyses the dates for the client payments and incomes to let you know when can you be out of cash and lets you know what to do about it</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-6">
+					<div class="overflow">
+						<div class="tabs-add">
+							<div class="about__boxBlur boxBlur about__cashGap active">
+								<div class="chart-object">
+									<div class="zeroLine"></div>
+									<canvas id="bar-chart" width="400" height="400"></canvas>
+								</div>
+							</div>
+							<div class="about__boxBlur boxBlur about__expenses">
+								<div class="head">Expenses</div>
+								<div class="cost">$ 24,312</div>
+								<ul class="list">
+									<li>
+										<div class="name">Equipment</div>
+										<div class="amount">
+<!--											<input type="text" class="amount__input" value="1300">-->
+											<span>$ 1,300</span>
+										</div>
+										
+									</li>
+									<li>
+										<div class="name">Software</div>
+										<div class="amount">$ 220</div>
+									</li>
+									<li>
+										<div class="name">Payroll</div>
+										<div class="amount">$ 21,450</div>
+									</li>
+									<li>
+										<div class="name">Travel Cost</div>
+										<div class="amount">$ 850</div>
+									</li>
+								</ul>
+							</div>
+							<div class="about__boxBlur boxBlur about__incomes about__expenses-income">
+								<ul class="list">
+									<li>
+
+										<div class="name">
+											<span class="status"><i></i></span>
+											<span>Equipment</span>
+										</div>
+										<div class="amount">$ 1,300</div>
+									</li>
+									<li>
+
+										<div class="name">
+											<span class="status status-white"><i></i></span>
+											<span>Explainly</span>
+										</div>
+										<div class="amount">$ 1,300</div>
+									</li>
+									<li>
+
+										<div class="name">
+											<span class="status status-orange"><i></i></span>
+											<span>Glory Boost</span>
+										</div>
+										<div class="amount">$ 1,300</div>
+									</li>
+									<li>
+
+										<div class="name">
+											<span class="status status-orange"><i></i></span>
+											<span>Itexia</span>
+										</div>
+										<div class="amount">$ 1,300</div>
+									</li>
+									<li>
+
+										<div class="name">
+											<span class="status status-orange"><i></i></span>
+											<span>Glory Boost</span>
+										</div>
+										<div class="amount">$ 1,300</div>
+									</li>
+									<li>
+
+										<div class="name">
+											<span class="status status-orange"><i></i></span>
+											<span>Itexia</span>
+										</div>
+										<div class="amount">$ 1,300</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="about__bg"></div>
+	</section>
+	<!--About-->
+
+	<!-- Features-->
+	<section class="features" id="features">
+		<div class="features__bg"></div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3 class="titleSection">We let you know when
+						<span>the hard time</span> is around the corner</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="features__about">
+						<p>Fintellect mechanics lets you predict the risks in your pricing, client payments and expences so you could stay within profitable business making</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="features__list">
+						<div class="boxBlur features__boxBlur features__boxBlur-invoice">
+							<strong>Invoice #27 declined</strong>
+							<p>Hi there. Bad news</p>
+							<p>Your invoice for landing page (pre payment) has been declined by customer</p>
+						</div>
+						<div class="boxBlur features__boxBlur features__boxBlur-fintellect">
+							<div class="head">
+								<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M11.5 21.5C17.0228 21.5 21.5 17.0228 21.5 11.5C21.5 5.97715 17.0228 1.5 11.5 1.5C5.97715 1.5 1.5 5.97715 1.5 11.5C1.5 17.0228 5.97715 21.5 11.5 21.5Z" stroke="#2F2F31" stroke-width="2.3"/>
+									<path d="M11.2028 16.5V12.5938H15.0722V10.4062H11.2028V8.6875H15.5V6.5H8.5V10.454L11.2028 10.4062L8.5 12.5938V16.5H11.2028Z" fill="#2F2F31"/>
+								</svg>
+								<span>FINTELLECT</span>
+							</div>
+							<div class="body">
+								<b>Watch out! </b>
+								<p>Your expected income is 4,20% than expected</p>
+							</div>
+						</div>
+						<div class="boxBlur features__boxBlur features__boxBlur-details">
+							<div class="details-item">
+								<div>
+									<div class="details-item_title">
+										<span class="details-item_progress loss"></span> The nearest cash gap </div>
+									<div class="details-item_numbers loss"> -$ 1,991 </div></div>
+								<div class="month-list"><div class="month-list-current"> Dec 3 </div>
+									<div class="month-list-btns"><button class="month-list-control"><svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M3.66667 7.40272L11 13.7439L7.33333 13.8191L1.51461e-06 7.40272L7.33333 0.985759L11 1.06155L3.66667 7.40272Z" fill="#2F2F31"/>
+									</svg>
+									</button>
+										<button class="month-list-control"><svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7.33333 7.23546L-6.57378e-09 0.894287L3.66667 0.819092L11 7.23546L3.66667 13.6524L-1.1153e-06 13.5766L7.33333 7.23546Z" fill="#2F2F31"/>
+										</svg>
+										</button>
+									</div>
+								</div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Features-->
+
+	<!--industries-->
+	<!--industries-->
+	<section class="industries" id="industries">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="titleSection">
+						An interface adjusted for specific <span>business model</span>
+					</h2>
+				</div>
+				<div class="col-md-6">
+					<div class="tabs tabs-ind">
+						<div class="tabs__header">
+							<a class="tabs__headerItem active" href="#it"><span>IT</span></a>
+							<a class="tabs__headerItem" href="#consultings"><span>Consultings</span></a>
+							<a class="tabs__headerItem" href="#lawfirms"><span>Law firms</span></a>
+							<a class="tabs__headerItem" href="#videoprod"><span>Video prod</span></a>
+							<a class="tabs__headerItem" href="#rentals"><span>Rentals</span></a>
+							<a class="tabs__headerItem" href="#reativeagencies"><span>Creative agencies</span></a>
+							<a class="tabs__headerItem" href="#coworkings"><span>Coworkings</span></a>
+						</div>
+						<div class="tabs__body">
+							<div class="tabs__bodyItem active" id="it">
+								<h3>Small IT-firms</h3>
+								<p>Fintellect mechanics lets you predict the risks in your pricing, client payments and expences so you could stay within profitable business making</p>
+							</div>
+							<div class="tabs__bodyItem" id="consultings">
+								<h3>Small IT-firms</h3>
+								<p>Fintellect mechanics lets you predict the risks in your pricing, client payments and expences so you could stay within profitable business making</p>
+							</div>
+							<div class="tabs__bodyItem" id="lawfirms">
+								<h3>Small IT-firms</h3>
+								<p>Fintellect mechanics lets you predict the risks in your pricing, client payments and expences so you could stay within profitable business making</p>
+							</div>
+							<div class="tabs__bodyItem" id="videoprod">
+								<h3>Small IT-firms</h3>
+								<p>Fintellect mechanics lets you predict the risks in your pricing, client payments and expences so you could stay within profitable business making</p>
+							</div>
+							<div class="tabs__bodyItem" id="rentals">
+								<h3>Small IT-firms</h3>
+								<p>Fintellect mechanics lets you predict the risks in your pricing, client payments and expences so you could stay within profitable business making</p>
+							</div>
+							<div class="tabs__bodyItem" id="reativeagencies">
+								<h3>Small IT-firms</h3>
+								<p>Fintellect mechanics lets you predict the risks in your pricing, client payments and expences so you could stay within profitable business making</p>
+							</div>
+							<div class="tabs__bodyItem" id="coworkings">
+								<h3>Small IT-firms</h3>
+								<p>Fintellect mechanics lets you predict the risks in your pricing, client payments and expences so you could stay within profitable business making</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<svg width="279" height="271" viewBox="0 0 279 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M178.307 115.398H110.93V186.044L178.307 115.398Z" fill="#2F2F31"/>
+						<path d="M135.502 253.326C200.575 253.326 253.328 200.573 253.328 135.5C253.328 70.4264 200.575 17.6738 135.502 17.6738C70.4283 17.6738 17.6758 70.4264 17.6758 135.5C17.6758 200.573 70.4283 253.326 135.502 253.326Z" stroke="#2F2F31" stroke-width="19.3571"/>
+						<g opacity="0.7">
+							<path d="M188.021 117.269H121.887V186.611L188.021 117.269Z" fill="#2F2F31"/>
+							<path d="M146 252.652C209.873 252.652 261.652 200.873 261.652 137C261.652 73.127 209.873 21.3478 146 21.3478C82.1269 21.3478 30.3477 73.127 30.3477 137C30.3477 200.873 82.1269 252.652 146 252.652Z" stroke="#2F2F31" stroke-width="19"/>
+						</g>
+						<path d="M178 115.5L111 186L122 186.5L188 117L178 115.5Z" fill="#474647"/>
+					</svg>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+	<script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script>
 	<script src="js/app.min.js"></script>
 
 </body>
